@@ -1,0 +1,22 @@
+identity:
+  name: to_yaml
+  author: blue_pen5805
+  label:
+    en_US: JSON string to YAML
+description:
+  human:
+    en_US: Load JSON string to YAML.
+  llm: Load JSON string to YAML.
+parameters:
+  - name: json_string
+    type: string
+    required: true
+    label:
+      en_US: JSON string
+    human_description:
+      en_US: JSON string to load.
+    llm_description: JSON string to load.
+    form: llm
+extra:
+  python:
+    source: tools/to_yaml.py

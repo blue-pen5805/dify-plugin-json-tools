@@ -1,0 +1,15 @@
+identity:
+  author: blue_pen5805
+  name: json-tools
+  label:
+    en_US: JSON Tools
+  description:
+    en_US: JSON Tools
+  icon: icon_s_en.png
+tools:
+  # - tools/json-dumps.yaml
+  - tools/json-loads.yaml
+  - tools/to_yaml.yaml
+extra:
+  python:
+    source: provider/json-tools.py

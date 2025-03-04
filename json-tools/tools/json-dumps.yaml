@@ -1,0 +1,22 @@
+identity:
+  name: json-dumps
+  author: blue_pen5805
+  label:
+    en_US: json.dumps
+description:
+  human:
+    en_US: Convert Object to JSON string.
+  llm: Convert Object to JSON string.
+parameters:
+  - name: json_object
+    type: object
+    required: true
+    label:
+      en_US: JSON object
+    human_description:
+      en_US: Object to convert to JSON string.
+    llm_description: Object to convert to JSON string.
+    form: llm
+extra:
+  python:
+    source: tools/json-dumps.py

@@ -1,0 +1,22 @@
+identity:
+  name: json-loads
+  author: blue_pen5805
+  label:
+    en_US: json.loads
+description:
+  human:
+    en_US: Load JSON string to Object.
+  llm: Load JSON string to Object.
+parameters:
+  - name: json_string
+    type: string
+    required: true
+    label:
+      en_US: JSON string
+    human_description:
+      en_US: JSON string to load.
+    llm_description: JSON string to load.
+    form: llm
+extra:
+  python:
+    source: tools/json-loads.py
